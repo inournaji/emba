@@ -177,4 +177,4 @@
     <?php print render($page['footer']); ?>
   </footer>
 <?php endif; ?>
-  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58ee04f70ede2a08"></script> 
+ <!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58ee04f70ede2a08#async=1"></script> -->
