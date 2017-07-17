@@ -77,9 +77,10 @@ class views_plugin_pager_infinite_scroll extends views_plugin_pager_full {
   function render($input) {
     $this->view->set_use_ajax(TRUE);
     $pager_theme = views_theme_functions('views_infinite_scroll_pager', $this->view, $this->display);
-    $settings = array(
+      $url_options = array('language' => '');
+      $settings = array(
       'views_infinite_scroll' => array(
-        'img_path' => url(drupal_get_path('module', 'views_infinite_scroll') . '/images/ajax-loader.gif'),
+        'img_path' => url(drupal_get_path('module', 'views_infinite_scroll') . '/images/ajax-loader.gif',$url_options),
       ),
     );
     drupal_add_js($settings, array('type' => 'setting', 'scope' => JS_DEFAULT));
