@@ -86,6 +86,9 @@ body{
     display: inline-block;
     float: left;
 }
+#block-block-2 img.icon{
+   width: 45px;
+}
 aside.first-sidebar .language-switcher-locale-url{
     padding: 0;
 }
