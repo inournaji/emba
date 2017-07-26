@@ -70,6 +70,11 @@
   <script src="//code.tidio.co/rghxg82swjfaoowumpu5vfark3qcthvd.js"></script>
 </head>
 <body<?php print $body_attributes; ?>>
+<div class="spinner">
+    <div class=" spinner-icon">
+        <img src="http://localhost/emba/sites/all/themes/embavenebootstrap/images/flag.png">
+    </div>
+</div>
   <div id="skip-link">
     <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
   </div>
