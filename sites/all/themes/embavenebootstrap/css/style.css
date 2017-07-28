@@ -239,6 +239,7 @@ aside.first-sidebar .language-switcher-locale-url{
 
 #block-views-content-view-block-1,
 #block-views-content-view-block-2{
+    min-height: 345px;
     float:left;
     border:2px solid #3a5795;
     border-radius:3px;
@@ -248,6 +249,10 @@ aside.first-sidebar .language-switcher-locale-url{
 #block-views-content-view-block-1 .flexslider,
 #block-views-content-view-block-2 .flexslider{
     margin-bottom:5px;
+}
+#block-views-content-view-block-1 .flexslider {
+    border: none;
+    border-radius: 0;
 }
 
 #block-views-content-view-block-1 .block-title,
@@ -266,7 +271,10 @@ aside.first-sidebar .language-switcher-locale-url{
     text-decoration:none;
 }
 
-#block-views-content-view-block-1 img,
+#block-views-content-view-block-1 img{
+    box-shadow:2px 5px 15px #ccc;
+}
+
 #block-views-content-view-block-2 img{
     border-bottom:1px solid #3a5795;
     border-radius:3px;
