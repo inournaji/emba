@@ -72,7 +72,7 @@
 <body<?php print $body_attributes; ?>>
 <div class="spinner">
     <div class=" spinner-icon">
-        <img src="http://localhost/emba/sites/all/themes/embavenebootstrap/images/flag.png">
+        <img src="/sites/all/themes/embavenebootstrap/images/flag.png">
     </div>
 </div>
   <div id="skip-link">
