@@ -268,8 +268,12 @@ aside.first-sidebar .language-switcher-locale-url{
     background-color:#3a5795;
     margin:0px;
 }
-
-
+#block-views-content-view-block-2 a{
+    text-align: justify;
+}
+#block-views-content-view-block-2 ul{
+    padding: 0 10px !important;
+}
 #block-views-content-view-block-1 .block-title a:hover,
 #block-views-content-view-block-2 .block-title a:hover{
     color:#fff;
